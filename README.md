@@ -53,7 +53,7 @@ You must build:
 
 Sample of the desired outcome:
 
-![alt text](assets/desiredOutcome.webp)
+![alt text](assets/images/desiredOutcome.webp)
 
 _**PS:** Currently, this is a static website._
 
