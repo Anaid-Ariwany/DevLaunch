@@ -1,3 +1,83 @@
+/* 
+primary color: #B7D5F4
+
+section background: #1C1A38
+
+accent: electric blue: #002eff || #3069FC
+        electric purple: #bf00ff || #5C23BD
+
+text color: #121518
+*/
+
+body {
+    font-family: "Merriweather", serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0;
+    background-color: #B7D5F4;
+
+}
+
 img {
     width: 5rem;
+}
+
+
+/* ##### header styling ##### */
+header {
+    padding-bottom: 5rem;
+}
+
+.logo {
+    width: 10rem;
+    height: auto;
+}
+
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+    background-color: #1C1A38;
+}
+
+.navbar-toggler {
+    background-color: #B7D5F4;
+}
+
+.navbar-toggler:focus {
+    box-shadow: #bf00ff 0px 0px 0px 0.25rem;
+}
+
+.nav-link {
+    color: #B7D5F4;
+}
+
+.nav-link:hover {
+    color: #bf00ff;
+    font-weight: bold;
+}
+
+.navButtons {
+    gap: 2rem;
+}
+
+.getTicketsLink {
+    background-color: #002eff;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.signUpLink {
+    border: 2px solid #bf00ff;
+    border-radius: 0.5rem;
+}
+
+.getTicketsLink:hover,
+.signUpLink:hover {
+    font-weight: bold;
+    color: white;
 }
