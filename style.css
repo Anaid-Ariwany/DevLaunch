@@ -19,14 +19,10 @@ body {
 
 }
 
-img {
-    width: 5rem;
-}
-
 
 /* ##### header styling ##### */
 header {
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }
 
 .logo {
@@ -40,7 +36,7 @@ header {
 }
 
 .navbar {
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     background-color: #1C1A38;
 }
 
@@ -54,11 +50,12 @@ header {
 
 .nav-link {
     color: #B7D5F4;
+    font-weight: 900;
 }
 
 .nav-link:hover {
     color: #bf00ff;
-    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .navButtons {
@@ -66,7 +63,7 @@ header {
 }
 
 .getTicketsLink {
-    background-color: #002eff;
+    background-color: #3069FC;
     color: white;
     border-radius: 0.5rem;
 }
@@ -81,3 +78,133 @@ header {
     font-weight: bold;
     color: white;
 }
+
+
+/* ##### hero section styling ##### */
+.heroSection {
+    background-image: url("assets/images/backgroundImage.webp");
+    background-size: cover;
+    background-position: center;
+    color: #B7D5F4;
+    padding: 6rem 3rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.heroTopDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.leftHeroTopDiv,
+.rightHeroTopDiv {
+    width: 50%;
+}
+
+.display-4 {
+    font-weight: bold;
+}
+
+.leftHeroTopDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    background-color: rgb(28, 26, 56, 0.8);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.heroButtonsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.heroButtonsDiv button {
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.heroButtonsDiv button:hover {
+    padding: 0.5rem 4rem;
+}
+
+.heroButtonsDiv>.blue {
+    background-color: #3069FC;
+    border: none;
+}
+
+.heroButtonsDiv>.purple {
+    background-color: #1c1a38;
+    border: 2px solid #bf00ff;
+}
+
+.heroMiddleDiv {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(28, 26, 56, 0.8);
+    padding: 1rem 0;
+}
+
+.heroMiddleDiv img {
+    width: 3rem;
+    height: auto;
+}
+
+.midlleCardDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 15%;
+}
+
+.borderLeft {
+    border-right: 1px solid rgb(183, 213, 244, 0.2);
+}
+
+.iconDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.iconDiv h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.midlleCardDiv p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.heroBottomDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(28, 26, 56, 0.5);
+    padding: 2rem 0;
+    border-radius: 0.5rem;
+}
+
+/* ##### meet our speakers section styling ##### */
+
+
+/* ##### schedule page section styling ##### */
+
+
+/* ##### footer styling ##### */
