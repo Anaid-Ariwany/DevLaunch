@@ -16,7 +16,7 @@ body {
     font-weight: 300;
     margin: 0;
     background-color: #B7D5F4;
-
+    color: #121518;
 }
 
 
@@ -86,7 +86,7 @@ header {
     background-size: cover;
     background-position: center;
     color: #B7D5F4;
-    padding: 6rem 3rem 3rem 3rem;
+    padding: 6rem 3rem 4rem 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -127,7 +127,9 @@ header {
     gap: 2rem;
 }
 
-.heroButtonsDiv button {
+.heroButtonsDiv button,
+.heroBottomDiv button,
+.allSpeakersButton {
     padding: 0.5rem 3rem;
     border-radius: 0.5rem;
     color: white;
@@ -135,11 +137,15 @@ header {
     letter-spacing: 2px;
 }
 
-.heroButtonsDiv button:hover {
+.heroButtonsDiv button:hover,
+.heroBottomDiv button:hover,
+.allSpeakersButton:hover {
     padding: 0.5rem 4rem;
 }
 
-.heroButtonsDiv>.blue {
+.heroButtonsDiv>.blue,
+.heroBottomDiv>.blue,
+.allSpeakersButton {
     background-color: #3069FC;
     border: none;
 }
@@ -160,6 +166,7 @@ header {
     width: 3rem;
     height: auto;
 }
+
 
 .midlleCardDiv {
     display: flex;
@@ -195,14 +202,73 @@ header {
 .heroBottomDiv {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgb(28, 26, 56, 0.5);
     padding: 2rem 0;
     border-radius: 0.5rem;
 }
 
 /* ##### meet our speakers section styling ##### */
+.speakerSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+}
 
+.speakerTopDiv h3 {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.speakerMiddleDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.speakerMiddleDiv>.card {
+    width: 20rem;
+    border-radius: 1rem;
+    background-color: #1C1A38;
+    border: none;
+}
+
+.card-img-top,
+img {
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.socialIcon {
+    width: 2rem;
+    height: auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    color: #B7D5F4;
+    letter-spacing: 2px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
 
 /* ##### schedule page section styling ##### */
 
