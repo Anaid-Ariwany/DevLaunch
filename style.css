@@ -48,13 +48,15 @@ header {
     box-shadow: #bf00ff 0px 0px 0px 0.25rem;
 }
 
-.nav-link {
+.nav-link,
+.quickLinksTopDiv a {
     color: #f8fbfe;
     font-weight: 900;
     letter-spacing: 2px;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.quickLinksTopDiv a:hover {
     color: #bf00ff;
     font-size: 1.1rem;
 }
@@ -427,3 +429,89 @@ img {
 
 
 /* ##### footer styling ##### */
+footer {
+    background-image: url("assets/images/footerBackground.webp");
+    color: #f8fbfe;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 1rem 2rem;
+}
+
+.footerLogoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogoDiv>.logo {
+    width: 25rem;
+    height: auto;
+}
+
+.quickLinks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.quickLinksTopDiv,
+.quickLinksBottomDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+}
+
+.quickLinksTopDiv ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.quickLinksTopDiv a {
+    text-decoration: none;
+}
+
+.quickLinksTopDiv li {
+    list-style: none;
+}
+
+.quickLinksTopDiv>.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footerIcon {
+    width: 2rem;
+    height: auto;
+}
+
+.footerIcon:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    width: 2.2rem;
+    height: auto;
+}
+
+.quickLinksBottomDiv p {
+    font-size: 0.8rem;
+    font-style: oblique;
+}
+
+.anaid {
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.anaid:hover {
+    color: #bf00ff;
+    font-size: 1rem;
+}
