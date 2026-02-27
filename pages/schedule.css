@@ -140,3 +140,96 @@ footer {
     background-color: #1C1A38;
     background-image: none;
 }
+
+
+
+/* ################## Responsive Design ################ */
+/* screens below 1008px and above 768px */
+@media (max-width: 1007px) and (min-width: 768px) {
+
+    .ticketRightCard {
+        width: 100%;
+    }
+
+    footer {
+        gap: 0;
+    }
+}
+
+/* screens below 768px */
+@media (max-width: 767px) {
+
+    .timeDiv p,
+    .timeDiv img {
+        display: none;
+    }
+
+    footer {
+        min-width: 636px;
+        gap: 0;
+    }
+
+    .quickLinksTopDiv,
+    .quickLinksBottomDiv {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .timeDiv p,
+    .timeDiv img {
+        display: none;
+    }
+
+    .timeDiv h6 {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+
+    .list-group-item {
+        flex-wrap: nowrap;
+        gap: 6.55rem;
+    }
+
+    .leftListItem {
+        flex-wrap: nowrap;
+    }
+
+    .ticketRightCard>.card-header {
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* screens below 576px */
+@media (max-width: 575px) {
+
+    footer {
+        min-width: 432px;
+    }
+
+    .footerLogoDiv>.logo {
+        width: 20rem;
+        height: auto;
+    }
+
+    .timeDiv p,
+    .timeDiv img {
+        display: none;
+    }
+
+    .ticketRightCard {
+        min-width: 300px;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    main {
+        min-width: 432px;
+    }
+
+}
