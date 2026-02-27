@@ -67,7 +67,7 @@ header {
 }
 
 .getTicketsLink {
-    background-color: #3069FC;
+    background-color: #002eff;
     color: white;
     border-radius: 0.5rem;
     max-width: max-content;
@@ -162,7 +162,7 @@ header {
 .heroButtonsDiv>.blue,
 .heroBottomDiv>.blue,
 .allSpeakersButton {
-    background-color: #3069fc;
+    background-color: #002eff;
     border: none;
 }
 
