@@ -41,15 +41,15 @@ main {
 
 /* ##### bottom div styling */
 .bottomDiv>.card {
-    width: 18rem;
+    width: 15rem;
     border-radius: 1rem;
     background-color: #1C1A38;
     border: none;
 }
 
 .img-thumbnail {
-    width: 18rem;
-    height: 18rem;
+    width: 15rem;
+    height: 15rem;
     border: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -84,7 +84,7 @@ main {
 }
 
 .card-body h6 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     letter-spacing: 1px;
 }
 
@@ -100,4 +100,93 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    min-width: min-content;
+    padding: 0 2rem;
+}
+
+
+/* ################## Responsive Design ################ */
+/* screens below 1170px */
+@media (max-width: 1169px) {
+
+    /* ensure footer remains expanded */
+    footer {
+        min-width: 1168px;
+    }
+}
+
+/* screens below 768px */
+@media (max-width: 767px) {
+
+    main {
+        padding: 2rem 1rem;
+    }
+
+    .bottomDiv {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .bottomDiv>.card {
+        width: 10rem;
+    }
+
+    .img-thumbnail {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .card-body h5 {
+        font-size: 0.8rem;
+    }
+
+    .card-body h6 {
+        font-size: 0.65rem;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    .socialIcon {
+        width: 1rem;
+    }
+
+    footer {
+        min-width: 636px;
+        gap: 0;
+    }
+
+    .quickLinksTopDiv,
+    .quickLinksBottomDiv {
+        gap: 2rem;
+        justify-content: center;
+    }
+}
+
+/* screens below 576px */
+@media (max-width: 575px) {
+
+    main {
+        padding: 3rem 1rem;
+    }
+
+    .bottomDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .noShow {
+        display: none;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        min-width: 432px;
+    }
+
+    .footerLogoDiv>.logo {
+        width: 20rem;
+        height: auto;
+    }
 }
