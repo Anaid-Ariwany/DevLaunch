@@ -1,0 +1,106 @@
+main {
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ##### top div styling */
+.display-6 {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+
+/* ##### bottom div styling */
+.bottomDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-image: url("../assets/images/backImage.webp");
+    object-fit: cover;
+    object-position: center;
+    width: 18rem;
+    color: #f8fbfe;
+}
+
+.card:hover {
+    transform: translateY(-1rem);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed #b7d5f4;
+    padding: 1rem 0;
+    gap: 0.7rem;
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: #f8fbfe;
+    border-bottom: none;
+}
+
+img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    padding-bottom: 1rem;
+}
+
+.card-footer button {
+    background-color: #002eff;
+    color: #f8fbfe;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.card-footer button:hover {
+    padding: 0.5rem 1.8rem;
+    font-size: 1.1rem;
+}
+
+.popularDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #544EBC;
+    color: #f8fbfe;
+    width: 18rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem 0;
+}
+
+.middleCard {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
