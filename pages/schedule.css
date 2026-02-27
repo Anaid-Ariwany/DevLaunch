@@ -1,0 +1,142 @@
+main {
+    background-image: url("../assets/images/fullBackground.webp");
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #f8fbfe;
+}
+
+
+/* ##### top div styling */
+.display-6 {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* ##### middle div styling */
+.btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown-item:hover {
+    background-color: #5C636A;
+    color: #f8fbfe;
+}
+
+
+
+/* ##### bottom div styling */
+.ticketRightCard {
+    width: 70%;
+    background-color: #f8fbfe;
+    color: #1C1A38;
+    border: none;
+    border-radius: 1rem;
+}
+
+.ticketRightCard>.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(28, 26, 56, 0.9);
+}
+
+.ticketLink a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.ticketLink a:hover {
+    color: #bf00ff;
+    font-size: 1.3rem;
+}
+
+.ticketRightCard>.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img-thumbnail {
+    width: 80px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.list-group-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1F4F7;
+    color: #121518;
+    padding: 0 2rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.list-group-item:hover {
+    background-color: rgb(191, 0, 255, 0.15);
+
+}
+
+.leftListItem {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.timeDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.timeDiv h6 {
+    font-weight: bold;
+}
+
+.timeDiv p {
+    font-size: 0.9rem;
+    color: #1C1A38;
+}
+
+.timeDiv div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.timeDiv img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.nextIcon {
+    width: 1.5rem;
+    height: auto;
+}
+
+.nextIcon:hover {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+    width: 1.7rem;
+    height: auto;
+}
+
+
+
+footer {
+    background-color: #1C1A38;
+    background-image: none;
+}
