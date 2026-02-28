@@ -41,7 +41,7 @@ Build a fully responsive 4–5 page event website that:
 
 ## 📂 Required Pages
 
-You must build:
+Required pages include:
 
 1. Home
 2. Speakers
