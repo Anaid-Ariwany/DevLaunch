@@ -74,7 +74,87 @@
         </nav>
     </header>
 
-    <main></main>
+    <main>
+
+        <!-- top div -->
+        <div>
+            <h1 class="display-6">Register</h1>
+        </div>
+
+
+        <!-- middle div -->
+        <div class="middleDiv">
+            <h3>Join DevLaunch 2026</h3>
+            <p>Secure your spot at the premier tech conference. Fill in your details below to register for DevLaunch
+                2026.</p>
+        </div>
+
+        <!-- bottom div -->
+        <div class="bottomDiv">
+
+            <!-- form -->
+            <form class="registrationForm">
+                <div class="mb-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="jobTitle" class="form-label">Job Title</label>
+                    <input type="text" class="form-control" id="jobTitle" placeholder="Job Title">
+                </div>
+                <div class="mb-3">
+                    <label for="company" class="form-label">Company</label>
+                    <input type="text" class="form-control" id="company" placeholder="Company">
+                </div>
+                <div class="mb-3">
+                    <label for="ticketType" class="form-label">Ticket Type</label>
+                    <select class="form-select" id="ticketType">
+                        <option selected>Select a ticket type</option>
+                        <option value="standard">Standard - $99</option>
+                        <option value="pro">Pro - $199</option>
+                        <option value="vip">VIP - $399</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="question/comments" class="form-label">Questions/Comments (Optional)</label>
+                    <textarea class="form-control" id="question/comments" rows="3"
+                        placeholder="Your questions or comments"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="termsCheck" checked>
+                    <label class="form-check-label" for="termsCheck">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+
+            <!-- card -->
+            <div class="card">
+                <div class="card-header">
+                    <h6 class="card-title">Registration closes on June 1, 2026</h6>
+                </div>
+
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><img src="../assets/icons/tick.webp" alt="tick icon">Standard, Pro,
+                            and VIP tickets available</li>
+                        <li class="list-group-item"><img src="../assets/icons/tick.webp" alt="tick icon">Workshops and
+                            networking sessions</li>
+                        <li class="list-group-item"><img src="../assets/icons/tick.webp" alt="tick icon">Access to all
+                            talks and sessions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
 
     <footer>
         <!-- logo div -->

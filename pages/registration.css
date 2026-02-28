@@ -1,0 +1,99 @@
+main {
+    background-image: url("../assets/images/fullBackground.webp");
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: #f8fbfe;
+    background-color: #1C1A38;
+}
+
+
+/* ##### top div styling */
+.display-6 {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+
+/* ##### middle div styling */
+.middleDiv {
+    text-align: center;
+}
+
+.middleDiv h3,
+.middleDiv p {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+/* ##### bottom div styling */
+label {
+    font-weight: bold;
+}
+
+.bottomDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+form {
+    background-color: #f8fbfe;
+    color: #1C1A38;
+    padding: 1.5rem 1.8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #002eff;
+    color: #f8fbfe;
+}
+
+.btn:hover {
+    background-color: #002eff;
+    color: #f8fbfe;
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgb(28, 26, 56, 0.5);
+    color: #f8fbfe;
+    max-height: max-content;
+    max-width: 15rem;
+}
+
+.card-header {
+    border-bottom: 1px dashed #b7d5f4;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #f8fbfe;
+}
+
+img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+/* ##### foooter styling */
+footer {
+    background-color: #1C1A38;
+    background-image: none;
+}
